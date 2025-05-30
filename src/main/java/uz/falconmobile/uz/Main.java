@@ -11,14 +11,14 @@ public class Main {
 
         while (true) {
             System.out.println("""
-                \n--- XO‘JALIK MOLLARI DO‘KONI ---
-                1. Mahsulot qo‘shish
-                2. Mahsulotlar ro‘yxati
-                3. Mahsulotni tahrirlash
-                4. Mahsulotni o‘chirish
-                0. Chiqish
-                Tanlang: 
-                """);
+                    \n--- XO‘JALIK MOLLARI DO‘KONI ---
+                    1. Mahsulot qo‘shish
+                    2. Mahsulotlar ro‘yxati
+                    3. Mahsulotni tahrirlash
+                    4. Mahsulotni o‘chirish
+                    0. Chiqish
+                    Tanlang: 
+                    """);
 
             int choice = sc.nextInt();
             switch (choice) {
